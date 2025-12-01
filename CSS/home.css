@@ -1,0 +1,207 @@
+/* --- Base Styles --- */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* --- Top Header Bar --- */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 20px;
+    background-color: #90EE90; /* Light Green */
+}
+
+/* --- Top Left Logo (Oval Shape) --- */
+.logo-left {
+    background: #000;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 50px / 50%; /* Oval shape */
+    border: 3px solid #ADD8E6; /* Light Blue Border */
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.logo-left .logo-text {
+    /* For demonstration, this is the text part */
+}
+
+/* --- Top Center Title --- */
+.logo-center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.brand-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #008000; /* Green text for "Servico" */
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+/* --- Top Right User Icon --- */
+.user-icon .fas {
+    font-size: 2rem;
+    color: #000;
+}
+
+/* --- Main Content Area (HERO SECTION with Background Image) --- */
+.main-content {
+    background-image: url('../img/i1.png'); /* Your specified image path */
+    background-size: contain; /* ***CRITICAL CHANGE: Ensures the whole image is visible*** */
+    background-position: center bottom; /* Centers horizontally and anchors to the bottom */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: scroll; /* Changed back to default scroll */
+    background-color: #F0FFF0; /* Very light, off-white/mint green from original design */
+    min-height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Hide the redundant <img> tag in the HTML */
+.group-image {
+    display: none;
+}
+
+/* Central Logo Overlay (The Black Oval - Simplified to match original look) */
+.central-logo-overlay {
+    position: absolute;
+    bottom: 20%; /* Adjusted slightly higher for positioning over the contained image */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #000; /* Solid black for high contrast */
+    color: #fff;
+    padding: 20px 80px; /* Standard size */
+    border-radius: 120px / 50%; /* Standard oval shape */
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.8); /* Simple white glow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Removed backdrop-filter for cleaner look */
+    z-index: 10; 
+}
+
+.central-logo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central-logo-text {
+    font-size: 2rem; /* Standard font size */
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow: none; /* Removed text glow */
+}
+
+.handshake-icon {
+    font-size: 2.5rem; /* Standard icon size */
+    margin-top: -10px;
+    filter: none; /* Removed filter */
+}
+
+/* --- Footer Section (No Changes) --- */
+.bottom-footer {
+    background-color: #36454F;
+    color: #fff;
+    height: auto;
+    padding: 20px 40px;
+    min-height: 150px;
+    font-size: 0.9rem;
+}
+
+/* Footer Grid Layout Adjustments */
+.footer-section-left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    padding-bottom: 15px;
+}
+
+.servico-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 5px #FFD700;
+    white-space: nowrap;
+}
+
+.quick-links {
+    line-height: 1.8;
+}
+
+.link-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.link-group span {
+    margin-right: 15px;
+    padding-right: 15px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.link-group span:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.policy-links {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+.policy-links span {
+    margin-right: 15px;
+}
+
+.footer-section-middle {
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.contact-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.contact-details p {
+    margin: 0;
+}
+
+.footer-section-right {
+    text-align: right;
+}
+
+.follow-us {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.social-icons .fab {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover .fab {
+    color: #ADD8E6;
+}
