@@ -1,0 +1,116 @@
+/* GENERAL PAGE STYLING */
+body {
+    margin: 0;
+    background-color: #dce7d5;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #b6f6a7;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: 80px;
+
+}
+
+.title-area {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.title-area h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+
+}
+
+.user-icons img {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+}
+
+/* FORM SECTION */
+.form-section {
+    width: 60%;
+    margin: 40px auto;
+}
+
+.form-section label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.form-section input,
+.form-section textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #444;
+    background: transparent;
+    padding: 8px 0;
+    font-size: 15px;
+    outline: none;
+}
+
+.form-section textarea {
+    height: 80px;
+    border: 1px solid #555;
+    padding: 10px;
+}
+
+/* CHECKBOX */
+.checkbox-area {
+    margin-top: 20px;
+
+
+}
+
+.checkbox-area input {
+    margin-right: 30px;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 5px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+.footer-column {
+    width: 200px;
+}
+
+.footer-column h3 {
+    margin-bottom: 8px;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    filter: invert(1) brightness(200%);
+}

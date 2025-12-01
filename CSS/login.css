@@ -24,8 +24,9 @@ body, html {
     border-radius: 50px / 50%; /* Oval shape */
     border: 3px solid #ADD8E6; /* Light Blue Border */
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 8%;
 }
 .logo-left .logo-text {
     /* For demonstration, this is the text part */
@@ -54,18 +55,18 @@ body, html {
 /* --- Main Content Area (Login/Create Account Forms) --- */
 .main-content {
     background-color: #F0FFF0; /* Very light, off-white/mint green */
-    min-height: 80vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column; /* Changed to column to stack elements nicely */
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Top Icon (Hands holding people) */
 .team-icon {
     color: #333; /* Darker color for the icon */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* Welcome Text */
@@ -82,13 +83,13 @@ body, html {
 .create-account-section {
     background-color: #90EE90; /* Light green background for the forms */
     border-radius: 10px;
-    padding: 25px;
+    padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     gap: 15px; /* Space between form elements */
     margin: 15px; /* Space between the two sections */
-    max-width: 400px; /* Limit width of form sections */
+    max-width: 200px; /* Limit width of form sections */
     flex-grow: 1;
 }
 
@@ -97,7 +98,7 @@ body, html {
     font-size: 1.8rem;
     font-weight: bold;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .login-title u {

@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    background: #dce8d2;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.top-header {
+    background: #b4f5b4;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-box img {
+    width: 80px;
+}
+
+.brand-name {
+    font-size: 28px;
+    color: #0f7305;
+    font-weight: bold;
+}
+
+.profile-icon img {
+    width: 35px;
+}
+
+/* MENU + SEARCH */
+.menu-search {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.menu-icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.search-box {
+    background: #b4f5b4;
+    padding: 8px;
+    border-radius: 5px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(176, 54, 54);
+}
+
+.search-box input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+/* WORKER LIST */
+.service-list {
+    padding: 20px 40px;
+}
+
+.worker {
+    display: flex;
+    align-items: center;
+    background: #e5f3dd;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.w-img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.w-info h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.w-info p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.status {
+    margin-left: auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.green { background: #41d451; }
+.red { background: #ff4747; }
+
+/* FOOTER */
+.footer {
+    background: #2b2b2b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-left a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 3px 0;
+}
+
+.social span {
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}

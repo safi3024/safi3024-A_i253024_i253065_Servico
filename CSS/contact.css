@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #dce8d2;
+}
+
+/* HEADER */
+.top-header {
+    background: #b4f5b4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-img {
+    width: 90px;
+}
+
+.brand-name {
+    font-size: 35px;
+    color: #0f7305;
+    font-weight: bold;
+}
+
+.profile-icon {
+    width: 40px;
+}
+
+/* WORKER SECTION */
+.worker-section {
+    display: flex;
+    padding: 30px;
+    align-items: flex-start;
+}
+
+.worker-left {
+    margin-right: 20px;
+}
+
+.worker-img {
+    width: 110px;
+    border-radius: 10px;
+}
+
+.worker-info {
+    flex: 1;
+}
+
+.name-bar {
+    background: #b4f5b4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.name-bar h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 25px;
+    background: white;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.book-btn {
+    background: #a5f38f;
+    border: 2px solid #1eaa00;
+    padding: 6px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* INFO CARD */
+.info-card {
+    background: #f0f0f0;
+    padding: 15px;
+    margin-top: 15px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.info-card p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* CHAT BAR */
+.chat-bar {
+    background: white;
+    border: 2px solid #d0d0d0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 6px;
+    margin-top: 250px;
+}
+
+.chat-bar input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.emoji-icon,
+.mic-icon {
+    font-size: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+    background: #2b2b2b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+.footer-left a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 4px 0;
+}
+
+.social span {
+    font-size: 25px;
+    margin-right: 8px;
+    cursor: pointer;
+}
