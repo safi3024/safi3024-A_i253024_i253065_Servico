@@ -1,0 +1,96 @@
+body {
+    background-color: #E3F0DF; 
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.logo-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #98FF9C;
+    padding: 10px 20px;
+    width: 1270;      
+    border-radius: 8px;
+}
+
+
+.logo-img {
+    height: 50px;
+}
+
+
+.brand-text {
+    font-family: 'Abril Fatface', serif;
+    font-size: 1.4em;
+    color: white;
+}
+
+.account-icon {
+    height: 28px;
+    margin-left: 1270px;
+}
+.footer {
+    display: flex; 
+    gap: 30px; 
+    
+    padding: 30px 0px; 
+    background-color: #333; 
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Alice', serif;
+}
+
+.brand-text, .footer-link {
+    font-size: 0.4em;
+    color: #fff;
+}
+
+.brand-text {
+    background: none; 
+    padding: 0;
+    font-weight: bold;
+}
+.footer-link {
+  text-align: center; 
+}
+
+.footer-link .text {
+  display: inline-block; 
+}
+
+.account-icon {
+  display: block;      
+  margin: 5px auto 0;  
+  width: 30px;         
+  height: auto;
+}
+.logo-b {
+    display: flex;
+    align-items: left;
+    gap: 12px;
+    background-color: #CDE7C4;
+    padding: 10px 20px;
+    width: 1270;
+    font-size: 1.5em;
+    color: #333;      
+    border-radius: 8px;
+}
+.about-box {
+    background-color: #CDE7C4;   
+    width: 50%;                  
+    margin: 10px;           
+    padding: 20px 30px;          
+    border-radius: 2px;         
+    text-align: center;          
+    font-size: 18px;            
+    line-height: 1.6;            
+    font-family: Arial, sans-serif;
+}
