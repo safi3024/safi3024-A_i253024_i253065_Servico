@@ -1,0 +1,229 @@
+/* --- Base Styles --- */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* --- Top Header Bar --- */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 20px;
+    background-color: #90EE90; /* Light Green */
+}
+
+/* --- Top Left Logo (Oval Shape) --- */
+.logo-left {
+    background: #000;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 50px / 50%; /* Oval shape */
+    border: 3px solid #ADD8E6; /* Light Blue Border */
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.logo-left .logo-text {
+    /* For demonstration, this is the text part */
+}
+
+/* --- Top Center Title --- */
+.logo-center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.brand-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #008000; /* Green text for "Servico" */
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+/* --- Top Right User Icon --- */
+.user-icon .fas {
+    font-size: 2rem;
+    color: #000;
+}
+
+/* --- Main Content Area (Login/Create Account Forms) --- */
+.main-content {
+    background-color: #F0FFF0; /* Very light, off-white/mint green */
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column; /* Changed to column to stack elements nicely */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Top Icon (Hands holding people) */
+.team-icon {
+    color: #333; /* Darker color for the icon */
+    margin-bottom: 20px;
+}
+
+/* Welcome Text */
+.welcome-text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Login and Create Account Sections */
+.login-section,
+.create-account-section {
+    background-color: #90EE90; /* Light green background for the forms */
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form elements */
+    margin: 15px; /* Space between the two sections */
+    max-width: 400px; /* Limit width of form sections */
+    flex-grow: 1;
+}
+
+.login-title,
+.create-account-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-title u {
+    text-decoration-color: #0000FF; /* Blue underline for "login" */
+}
+
+.form-label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border: none; /* Remove default border */
+    border-radius: 5px;
+    padding: 10px 12px;
+    background-color: #E0E0E0; /* Light gray input fields */
+    color: #333;
+    width: 100%; /* Ensure inputs take full width */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 2px #ADD8E6; /* Light blue focus ring */
+}
+
+/* Placeholder for .group-image, central-logo-overlay if they were there */
+/* If you had an image and logo overlay, they are now removed from the display */
+.group-image,
+.central-logo-overlay {
+    display: none;
+}
+
+
+/* --- Footer Section (No Changes) --- */
+.bottom-footer {
+    background-color: #36454F;
+    color: #fff;
+    height: auto;
+    padding: 20px 40px;
+    min-height: 150px;
+    font-size: 0.9rem;
+}
+
+.footer-section-left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    padding-bottom: 15px;
+}
+
+.servico-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 5px #FFD700;
+    white-space: nowrap;
+}
+
+.quick-links {
+    line-height: 1.8;
+}
+
+.link-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.link-group span {
+    margin-right: 15px;
+    padding-right: 15px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.link-group span:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.policy-links {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+.policy-links span {
+    margin-right: 15px;
+}
+
+.footer-section-middle {
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.contact-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.contact-details p {
+    margin: 0;
+}
+
+.footer-section-right {
+    text-align: right;
+}
+
+.follow-us {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.social-icons .fab {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover .fab {
+    color: #ADD8E6;
+}
